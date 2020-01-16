@@ -24,6 +24,38 @@ scalar DateTime
 ```yml
 # gqlgen.yml
 
+schema:
+  - "./*.graphql"
+
+models:
+  # -- Start Scalars --
+  String:
+    model:
+      - github.com/99designs/gqlgen/graphql.String
+      - github.com/nrfta/go-graphql-scalars.NullString
+  Boolean:
+    model:
+      - github.com/99designs/gqlgen/graphql.Boolean
+      - github.com/nrfta/go-graphql-scalars.NullBoolean
+  Float:
+    model:
+      - github.com/99designs/gqlgen/graphql.Float
+      - github.com/nrfta/go-graphql-scalars.NullFloat64
+  Int:
+    model:
+      - github.com/99designs/gqlgen/graphql.Int
+      - github.com/99designs/gqlgen/graphql.Int32
+      - github.com/99designs/gqlgen/graphql.Int64
+      - github.com/nrfta/go-graphql-scalars.NullInt
+  Date:
+    model:
+      - github.com/nrfta/go-graphql-scalars.Date
+      - github.com/nrfta/go-graphql-scalars.NullDate
+  DateTime:
+    model:
+      - github.com/nrfta/go-graphql-scalars.DateTime
+      - github.com/nrfta/go-graphql-scalars.NullDateTime
+  # -- End Scalars --
 ```
 
 ## License
