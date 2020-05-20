@@ -2,7 +2,7 @@ package scalars
 
 import (
 	"github.com/99designs/gqlgen/graphql"
-	"github.com/volatiletech/null"
+	"github.com/volatiletech/null/v8"
 )
 
 func MarshalNullString(ns null.String) graphql.Marshaler {

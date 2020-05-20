@@ -3,9 +3,9 @@ package scalars_test
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/volatiletech/null"
+	"github.com/volatiletech/null/v8"
 
-	"github.com/nrfta/go-graphql-scalars"
+	scalars "github.com/nrfta/go-graphql-scalars"
 )
 
 var _ = Describe("UnmMarshall Null String", func() {
