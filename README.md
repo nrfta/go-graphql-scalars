@@ -1,6 +1,6 @@
 # go-graphql-scalars ![](https://github.com/nrfta/go-graphql-scalars/workflows/CI/badge.svg)
 
-A collection of GraphQL ([gqlgen](https://github.com/99designs/gqlgen/)) Scalars with [SQLBoiler's](https://github.com/volatiletech/sqlboiler) [null](https://github.com/volatiletech/null) support
+A collection of GraphQL ([gqlgen](https://github.com/99designs/gqlgen/)) Scalars with [SQLBoiler's](https://github.com/volatiletech/sqlboiler) [null](https://github.com/volatiletech/null/v8) support
 
 ## Install
 
