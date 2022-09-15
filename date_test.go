@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/nrfta/go-graphql-scalars"
+	scalars "github.com/nrfta/go-graphql-scalars"
 )
 
 type sampleTime struct {
@@ -26,6 +26,9 @@ var _ = Describe("Unmarshal Date Test", func() {
 	It("returns an error when improper formatted time passed in", func() {
 		_, err := scalars.UnmarshalDate(wrongTime)
 		Expect(err).ToNot(BeNil())
+	})
+	It("handles ios 8601 as input", func() {
+		Expect(scalars.UnmarshalDate("2006-01-02T15:04:05-07:00")).Should(BeAssignableToTypeOf(time.Time{}))
 	})
 })
 
