@@ -10,7 +10,6 @@ go get -u "github.com/nrfta/go-graphql-scalars"
 
 ## Usage
 
-
 ```graphql
 # scalars.graphql
 
@@ -19,6 +18,8 @@ scalar Date
 
 "The `DateTime` is a date in the format ISO 8601 format: `2006-01-02T15:04:05Z07:00`"
 scalar DateTime
+
+scalar JSON
 ```
 
 ```yml
