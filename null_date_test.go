@@ -4,9 +4,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/aarondl/null/v8"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/volatiletech/null/v8"
 
 	scalars "github.com/nrfta/go-graphql-scalars"
 )

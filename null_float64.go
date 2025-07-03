@@ -2,7 +2,7 @@ package scalars
 
 import (
 	"github.com/99designs/gqlgen/graphql"
-	"github.com/volatiletech/null/v8"
+	"github.com/aarondl/null/v8"
 )
 
 func MarshalNullFloat64(ns null.Float64) graphql.Marshaler {
