@@ -5,13 +5,16 @@ toolchain go1.24.1
 
 require (
 	github.com/99designs/gqlgen v0.17.61
+	github.com/aarondl/null/v8 v8.1.3
 	github.com/neighborly/go-errors v0.3.2
 	github.com/onsi/ginkgo v1.12.2
 	github.com/onsi/gomega v1.10.1
-	github.com/volatiletech/null/v8 v8.1.2
 )
 
 require (
+	github.com/aarondl/inflect v0.0.2 // indirect
+	github.com/aarondl/randomize v0.0.2 // indirect
+	github.com/aarondl/strmangle v0.0.9 // indirect
 	github.com/friendsofgo/errors v0.9.2 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/gofrs/uuid v4.4.0+incompatible // indirect
@@ -20,9 +23,6 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/sosodev/duration v1.3.1 // indirect
 	github.com/vektah/gqlparser/v2 v2.5.21 // indirect
-	github.com/volatiletech/inflect v0.0.1 // indirect
-	github.com/volatiletech/randomize v0.0.1 // indirect
-	github.com/volatiletech/strmangle v0.0.8 // indirect
 	golang.org/x/net v0.38.0 // indirect
 	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/text v0.23.0 // indirect
